@@ -120,7 +120,6 @@ const useCouponSelect = (couponDetails, profileData, setShow, checkout) => {
       }
     }
 
-
     if (couponCode !== "") {
       // console.log(selectCoupon, "\n", profileData);
       const res = await axios.post(

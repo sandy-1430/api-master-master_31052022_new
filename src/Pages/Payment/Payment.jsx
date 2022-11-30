@@ -465,7 +465,7 @@ function Payment() {
                 let langSel = item.avlLangSubjects?.filter((x) => x.selection === true).length
                 return (
                   <div key={index} className="col-md-3 card_pack">
-                    <div className="card_body">
+                    <div className="card_body pt-5">
                       {item.tagLine && <div class="ribbon-pop">{item.tagLine}</div>}
                       <div className="card_title">
                         <p>{item.subscriptionName}</p>
