@@ -34,6 +34,7 @@ const paymentHandler = ({ couponCode, profileData, totalPrice, setLoader, checko
         orderAmt: totalPrice,
       }
     }
+
     axios
       .post(
         baseUrl() + "/pg/initiatePayment", obj,
