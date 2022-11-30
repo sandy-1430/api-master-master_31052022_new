@@ -466,6 +466,7 @@ function Payment() {
                 return (
                   <div key={index} className="col-md-3 card_pack">
                     <div className="card_body">
+                      {item.tagLine && <div class="ribbon-pop">{item.tagLine}</div>}
                       <div className="card_title">
                         <p>{item.subscriptionName}</p>
                       </div>
