@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+    .custom-slider {
+        display: flex;
+      padding: 0;
+        gap: 20px;
+        width: 100%;
+    }
+    .custom-slider .card{
+        width: 100%  !important;
+    }
+}

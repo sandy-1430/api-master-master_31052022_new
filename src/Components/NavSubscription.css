@@ -1,0 +1,54 @@
+.cards-option {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  gap: 20px;
+}
+
+.card-course {
+  position: relative;
+  margin: 10px 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 0.5px solid #7b1fa2;
+
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-course .card_title_course {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.card-course:hover {
+  /* transform: scale(1.1); */
+  background-color: #a44cc9;
+}
+
+.card-course:hover .card_title_course {
+  color: white;
+}
+
+.card-course .card_icon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.title-white {
+  color: black;
+}
+
+.title-black {
+  color: black;
+}

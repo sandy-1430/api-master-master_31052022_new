@@ -1,0 +1,108 @@
+
+
+/* Google btn */
+.google-btn {
+  width: 50px;
+
+  height: 50px;
+  /* margin-left: 50px; */
+  background-color: #4285f4;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.google-btn .google-icon-wrapper {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 48px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.google-btn .google-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  width: 20px;
+  height: 20px;
+}
+.google-btn .btn-text {
+  float: right;
+  margin: 11px 11px 0 0;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-family: "Roboto";
+}
+.google-btn:hover {
+  box-shadow: 0 0 6px #4285f4;
+}
+.google-btn:active {
+  background: #1669f2;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.accordion-item .accordion-button:not(.collapsed),
+.accordion-item .accordion-button:not(.collapsed):focus {
+  box-shadow: none;
+  /* transition: all 0.5s; */
+}
+
+.accordion-button:not(.collapsed),
+.accordion-body {
+  border: 2px solid #7b1fa2;
+  transition: all 0.1s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom: none;
+}
+
+.accordion-body {
+  border-top: none;
+}
+
+.rec-carousel-item > div {
+  height: 100%;
+  position: relative;
+}
+
+.rec.rec-arrow {
+  background: #fff;
+}
+
+.rec.rec-arrow-left {
+  position: absolute;
+  z-index: 9;
+  left: 0px;
+}
+
+.rec.rec-arrow-right {
+  position: absolute;
+  z-index: 9;
+  right: 0px;
+}
+
+.rec.rec-arrow:disabled {
+  border-color: #fff;
+  background-color: #fff;
+}
+
+.rec.rec-arrow{
+  background: #fff;
+}
+
+.motion-click {
+  transition: all 0.5s;
+}
+
+.btn:hover .icon-next {
+  color: #7b1fa2;
+}

@@ -1,0 +1,26 @@
+.btn-que-mark {
+  content: "";
+  display: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: green;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.btn-question {
+  position: relative;
+}
+
+.btn-question {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  width: 100%;
+}
+
+.btn-question:hover {
+  color: rgb(0, 0, 0);
+}

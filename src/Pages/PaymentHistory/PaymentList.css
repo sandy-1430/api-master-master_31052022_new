@@ -1,0 +1,20 @@
+tr * {
+  border: none;
+  border-color: #000;
+  font-size: 14px;
+}
+table tr {
+  /* border: none; */
+  border-color: #dee2e6;
+}
+.table-fix-width {
+  /* min-width: 640px; */
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link[active] {
+  color: #7b1fa2;
+  font-weight: 600 !important;
+}

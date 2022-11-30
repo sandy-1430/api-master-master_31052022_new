@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@300;400&family=League+Spartan:wght@300&family=Montserrat&family=Open+Sans&family=PT+Sans:ital@1&family=Poppins&family=Roboto:ital@1&family=Source+Serif+4:opsz@8..60&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    /* font-family: 'Times New Roman', Times, serif; */
+
+    padding-right: 0 !important;
+}
